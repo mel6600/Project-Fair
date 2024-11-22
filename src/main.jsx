@@ -13,4 +13,3 @@ createRoot(document.getElementById('root')).render(
 <AuthContext><Contextapi>  <BrowserRouter>  <App /></BrowserRouter></Contextapi></AuthContext>
   </StrictMode>,
 )
-
