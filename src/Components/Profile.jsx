@@ -1,8 +1,8 @@
 import React,{useEffect, useState} from 'react'
 import { Collapse } from 'react-bootstrap'
 import landingimg from '../assets/thh.jfif'
-import SERVERURL from '../../Services/serverurl'
-import { editUserAPI } from '../../Services/allapi'
+import SERVERURL from '../Services/serverurl'
+import { editUserAPI } from '../Services/allapi'
 Collapse
 const Profile = () => {
 

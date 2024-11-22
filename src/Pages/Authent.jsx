@@ -2,8 +2,8 @@ import React, { useContext, useState } from 'react'
 import landingimg from '../assets/download.jfif'
 import { Form, FloatingLabel,Spinner } from 'react-bootstrap'
 import { Link, useNavigate } from 'react-router-dom'
-import { registerApi,loginApi } from '../../Services/allapi'
-import { tokenAuthContext } from '../Components/Context/Authcontext'
+import { registerApi,loginApi } from '../Services/allapi'
+import { tokenAuthContext } from '../Context/Authcontext'
 
 
 

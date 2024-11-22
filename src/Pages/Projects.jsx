@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Header from '../Components/Header'
 import { Col, Row } from 'react-bootstrap'
 import Projectcard from '../Components/Projectcard'
-import { allProjectapi } from '../../Services/allapi'
+import { allProjectapi } from '../Services/allapi'
 
 const Projects = () => {
 const[search,setsearch]=useState("")

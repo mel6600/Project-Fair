@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import { Card, Modal } from 'react-bootstrap'
-import SERVERURL from '../../Services/serverurl';
+import SERVERURL from '../Services/serverurl';
 
 const Projectcard = ({displayData}) => {
 

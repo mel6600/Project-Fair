@@ -1,9 +1,9 @@
 import React, { useState,useEffect, useContext } from 'react';
 import {Modal,Button} from 'react-bootstrap';
 import landingimg from '../assets/OIP.jfif'
-import SERVERURL from '../../Services/serverurl';
-import { editProjectapi } from '../../Services/allapi';
-import { editResponseContext } from './Context/Contextapi';
+import SERVERURL from '../Services/serverurl';
+import { editProjectapi } from '../Services/allapi';
+import { editResponseContext } from '../Context/Contextapi';
 
 
 

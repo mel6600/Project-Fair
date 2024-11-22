@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Navbar,Container } from 'react-bootstrap'
 import { Link, useNavigate } from 'react-router-dom'
-import { tokenAuthContext } from './Context/Authcontext'
+import { tokenAuthContext } from '../Context/Authcontext'
 
 const Header = ({insideDashboard}) => {
 

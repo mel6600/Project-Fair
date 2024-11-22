@@ -7,7 +7,7 @@ import Dashboard from './Pages/Dashboard'
 import Authent from './Pages/Authent'
 import Footer from './Components/Footer'
 import { useContext } from 'react'
-import { tokenAuthContext } from './Components/Context/Authcontext'
+import { tokenAuthContext } from './Context/Authcontext'
 
 function App() {
   const {isAuthorised,setIsAuthorised} = useContext(tokenAuthContext)

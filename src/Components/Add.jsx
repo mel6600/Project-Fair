@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import {Modal,Button} from 'react-bootstrap';
 import landingimg from '../assets/OIP.jfif'
-import { addProjectapi } from '../../Services/allapi';
-import { addResponseContext } from './Context/Contextapi';
+import { addProjectapi } from '../Services/allapi';
+import { addResponseContext } from '../Context/Contextapi';
 
 
 const Add = () => {

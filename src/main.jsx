@@ -4,8 +4,8 @@ import App from './App.jsx'
 import './index.css'
 import './bootstrap.min.css'
 import { BrowserRouter } from 'react-router-dom'
-import Contextapi from './Components/Context/Contextapi.jsx'
-import AuthContext from './Components/Context/Authcontext.jsx'
+import Contextapi from './Context/Contextapi.jsx'
+import AuthContext from './Context/Authcontext.jsx'
 
 
 createRoot(document.getElementById('root')).render(

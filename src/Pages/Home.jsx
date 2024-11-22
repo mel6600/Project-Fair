@@ -3,7 +3,7 @@ import { Link,useNavigate } from 'react-router-dom'
 import landingimg from '../assets/th.jfif'
 import Projectcard from '../Components/Projectcard'
 import Card from 'react-bootstrap/Card';
-import { homeProjectapi } from '../../Services/allapi';
+import { homeProjectapi } from '../Services/allapi';
 
 const Home = () => {
     const Navigate=useNavigate( )

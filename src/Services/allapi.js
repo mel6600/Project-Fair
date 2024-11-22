@@ -40,7 +40,7 @@ export const loginApi= async(reqbody)=>{
     }
 
     export const editUserAPI = async (reqBody,reqHeader)=>{
-        return await CommonAPI("PUT",`${SERVERURL}/user/edit`,reqBody,reqHeader)
+        return await CommonApi("PUT",`${SERVERURL}/user/edit`,reqBody,reqHeader)
     }
 
     

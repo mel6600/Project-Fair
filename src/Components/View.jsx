@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Add from './Add'
 import Edit from './Edit'
-import { removeProjectapi, userProjectapi } from '../../Services/allapi'
-import { addResponseContext, editResponseContext } from './Context/Contextapi'
+import { removeProjectapi, userProjectapi } from '../Services/allapi'
+import { addResponseContext, editResponseContext } from '../Context/Contextapi'
 
 const View = () => {
 
